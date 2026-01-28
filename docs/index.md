@@ -17,37 +17,38 @@ hero:
       text: GitHub
       link: https://github.com/lwofacai/wofacai
 
+
 features:
   - icon: 🚀
     title: 原神启动
-    link: /开始使用
+    link: /mdddd/开始使用
     details: 你能想到的资源都可以提交帮你收集鉴别真伪.
   - icon: 👻
     title: ToolS
-    link: /工具Tools/system-Tools
+    link: /mdddd/工具Tools/system-Tools
     details: 各类免费工具，助你效率翻倍.
   - icon: 🕸️
     title: 自由联网
-    link: /misc
+    link: /mdddd/ziyuan/加速器_VPN
     details: 包含但不限于VPN/加速器/机场/跨境资源
   - icon: 🐞
     title: 各式各样
-    link: /misc
+    link: /mdddd/ziyuan/misc
     details: 乱七八糟的很多内容。
   - icon: 🧠
     title: 人工智能
-    link: /misc
+    link: /mdddd/ziyuan/ai
     details: 人工智能Agent资源，倾向于长期资源有用资源整理。
   - icon: 🦋
     title: 游戏工具
-    link: /misc
+    link: /mdddd/工具Tools/gaming-tools
     details: 免费游戏工具
   - icon: 🦀
-    title: 影视资源
-    link: /misc
-    details: 免费看剧看视频地址。
+    title: 白羊加速 
+    link: https://baiyangjiasu.com/register?invite=0ULmX4zl
+    details: Edge浏览器搜索🔍白羊加速。
   - icon: 👁️
     title: 防炸指南
     link: /misc
-    details: 整理部分关键词等内容,让你能快速了解网络.尽请期待 
+    details: 整理部分关键词等内容,让你能快速了解网络。    正在更新尽请期待 
 ---
