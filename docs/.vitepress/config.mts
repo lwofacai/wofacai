@@ -105,7 +105,7 @@ export default defineConfig({
         icon: {
           svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.426 1.056a2.01 2.01 0 0 0-1.926-.03L1.5 9.07a2 2 0 0 0-.11 3.59l4.58 2.3 2.1 6.54c.15.46.54.8 1.01.86a1.96 1.96 0 0 0 1.54-.57l2.84-2.84 4.8 3.54c.48.35 1.08.38 1.59.08.51-.3 1.1-.96 1.01-1.63L22.95 3.03a2 2 0 0 0-1.524-1.974zM10.02 14.97l-.14 4.22c-.01.16-.25.16-.26 0l-1.4-4.38 10.16-7.3c.1-.07.2.1.1.18l-8.46 7.28z" fill="currentColor"/></svg>'
         },
-        link: 'https://t.me/+83c2zbW2JMM1Mzgx'
+        link: 'https://t.me/woxituoHH'
       }
     ]
   }
