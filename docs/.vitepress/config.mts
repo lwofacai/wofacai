@@ -55,7 +55,7 @@ export default defineConfig({
           { text: '🛜VPN/翻墙工具', link: '/mdddd/ziyuan/加速器_VPN' },
           { text: '📺动漫/电影/电视', link: '/mdddd/ziyuan/video' },
           { text: '📻广播/博客/音乐', link: '/mdddd/工具Tools/audio' },
-          { text: '📃游戏/模拟器', link: '/mdddd/ziyuan/gaming' },
+          { text: '🎮游戏/模拟器', link: '/mdddd/ziyuan/gaming' },
           { text: '📕书籍/漫画/漫画', link: '/mdddd/ziyuan/reading' },
           { text: '⬇️下载', link: '/mdddd/ziyuan/downloading' },
           { text: '🪲下载种子', link: '/mdddd/ziyuan/torrenting' },
@@ -63,7 +63,7 @@ export default defineConfig({
           { text: 'Linux/MAC', link: '/mdddd/ziyuan/linux-macos' },
           { text: 'Android / iOS', link: '/mdddd/ziyuan/mobile' },
           { text: '教程视频杂项', link: '/mdddd/ziyuan/storage' },
-          { text: '📃非英文资源', link: '/mdddd/ziyuan/non-english' },
+          { text: '🔞非英文资源', link: '/mdddd/ziyuan/non-english' },
           
           { text: '🤖正在努力更新', link: '/' } 
         ]
@@ -77,12 +77,12 @@ export default defineConfig({
           { text: '🛜互联网工具', link: '/mdddd/工具Tools/internetTools' },
           { text: '🎦社交媒体工具', link: '/mdddd/工具Tools/internetTools' },
           { text: '📃文本工具', link: '/mdddd/工具Tools/text-tools' },
-          { text: '📃游戏工具', link: '/mdddd/工具Tools/gaming-tools' },
-          { text: '📃图像工具', link: '/mdddd/工具Tools/image-tools' },
-          { text: '📃视频工具', link: '/mdddd/工具Tools/video-tools' },
-          { text: '📃音频工具', link: '/mdddd/工具Tools/audio' },
-          { text: '📃教育工具', link: '/mdddd/工具Tools/educational' },
-          { text: '📃开发工具', link: '/mdddd/工具Tools/developer-tools' },
+          { text: '🕹️游戏工具', link: '/mdddd/工具Tools/gaming-tools' },
+          { text: '🧩图像工具', link: '/mdddd/工具Tools/image-tools' },
+          { text: '📽️视频工具', link: '/mdddd/工具Tools/video-tools' },
+          { text: '🎙️音频工具', link: '/mdddd/工具Tools/audio' },
+          { text: '🏫教育工具', link: '/mdddd/工具Tools/educational' },
+          { text: '🧶开发工具', link: '/mdddd/工具Tools/developer-tools' },
           { text: '🤖正在努力更新', link: '/' } 
         ]
       },
