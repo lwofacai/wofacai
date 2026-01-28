@@ -44,15 +44,7 @@
 > *注：请将上述链接替换为你项目的实际截图 URL*
 
 ## 🛠️ 快速开始
-资源包含全球各类资源访问需 **[加速器/梯子/VPN](https://woxituo.github.io/mdddd/ziyuan/%E5%8A%A0%E9%80%9F%E5%99%A8_VPN.html)**。
-### 环境要求
-- Node.js 18+
-- pnpm / npm / yarn
-
-### 本地部署
-1. **克隆仓库**
-   ```bash
-   git clone https://github.com/your-username/woxituo.git
+资源包含全球各类资源访问需 **[加速器/梯子/VPN](https://baiyangjiasu.com/register?invite=0ULmX4zl)**。
 
 ## ⚖️ License & Credits
 
