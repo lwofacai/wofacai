@@ -12,13 +12,17 @@ hero:
       link: /mdddd/开始使用
     - theme: brand
       text: 加速访问
-      link: https://baiyangjiasu.com/register?invite=2T8KwEZa
+      link: https://baiyangjiasu.com/register?invite=sqBwL69m
     - theme: alt
-      text: GitHub
-      link: https://github.com/lwofacai/wofacai
+      text: 萌新教程
+      link: /mdddd/教程/新手指南
 
 
 features:
+  - icon: 🦀
+    title: 白羊加速 
+    link: https://baiyangjiasu.com/register?invite=sqBwL69m
+    details: 点击本按钮或Edge浏览器搜索🔍白羊加速。
   - icon: 🚀
     title: 原神启动
     link: /mdddd/开始使用
@@ -43,12 +47,8 @@ features:
     title: 游戏工具
     link: /mdddd/工具Tools/gaming-tools
     details: 免费游戏工具
-  - icon: 🦀
-    title: 白羊加速 
-    link: https://baiyangjiasu.com/register?invite=0ULmX4zl
-    details: Edge浏览器搜索🔍白羊加速。
   - icon: 👁️
     title: 防炸指南
-    link: /misc
+    link: /
     details: 整理部分关键词等内容,让你能快速了解网络。    正在更新尽请期待 
 ---

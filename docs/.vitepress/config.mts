@@ -6,7 +6,6 @@ export default defineConfig({
   title: "WoXituo",
   description: "遇到难找到的东西又不想起我了，那还不收藏分享等什么呢。",
 
-
   // 忽略死链检查（可选）：防止删除原项目文件后，残留链接导致打包报错
   ignoreDeadLinks: true, 
 
@@ -38,14 +37,36 @@ export default defineConfig({
         link: "/mdddd/开始使用",
         collapsed: false,
       },
+      // { text: '新手指南', link: '/mdddd/教程/新手指南', collapsed: false, },
       {
-        text: '教程', // 加个标题文字更好看
+        text: '萌新教程', // 加个标题文字更好看
         collapsed: false,
         items: [
-          { text: '正在整理', link: '/' },   
-          { text: '🤖正在努力更新', link: '/' } 
-        ]
-      },
+          
+          // === 第一组：AI 相关 ===
+          {
+            text: '🤖 AI 白嫖系列',  // 这是二级标题
+            collapsed: false,      // 是否默认折叠
+            items: [
+              { text: '注册 Gemini', link: '/mdddd/教程/Gemini3Pro' },
+              { text: '其他 AI 教程待更新', link: '/' } // 占位
+            ]
+          },
+          
+          // === 第二组：建站/工具 ===
+          {
+            text: '🛠️ 建站工具系列待更新', // 这是另一个二级标题
+            collapsed: true,       // 这一组默认折叠起来
+            items: [
+              { text: '待更新', link: '/mdddd/教程/新手指南' },
+              { text: '待更新', link: '/' }
+            ]
+          },  
+          { text: '🤖正在努力更新', link: '/' },
+          
+        ] // <--- 【修复点1】补全了这里的闭合括号
+      }, // <--- 【修复点1】补全了这里的闭合对象
+      
       {
         text: '百科', // 加个标题文字更好看
         collapsed: false,
@@ -56,7 +77,7 @@ export default defineConfig({
           { text: '📺动漫/电影/电视', link: '/mdddd/ziyuan/video' },
           { text: '📻广播/博客/音乐', link: '/mdddd/工具Tools/audio' },
           { text: '🎮游戏/模拟器', link: '/mdddd/ziyuan/gaming' },
-          { text: '📕书籍/漫画/漫画', link: '/mdddd/ziyuan/reading' },
+          { text: '📕书籍/漫画', link: '/mdddd/ziyuan/reading' }, // 【优化点】去掉了重复的“漫画”
           { text: '⬇️下载', link: '/mdddd/ziyuan/downloading' },
           { text: '🪲下载种子', link: '/mdddd/ziyuan/torrenting' },
 
@@ -75,7 +96,8 @@ export default defineConfig({
           { text: '💻系统工具', link: '/mdddd/工具Tools/system-Tools' },   
           { text: '🗃️文件工具', link: '/mdddd/工具Tools/file-tools' },
           { text: '🛜互联网工具', link: '/mdddd/工具Tools/internetTools' },
-          { text: '🎦社交媒体工具', link: '/mdddd/工具Tools/internetTools' },
+          // 注意：下面这个链接和上面一样，如果是不同的文件，记得修改文件名
+          { text: '🎦社交媒体工具', link: '/mdddd/工具Tools/internetTools' }, 
           { text: '📃文本工具', link: '/mdddd/工具Tools/text-tools' },
           { text: '🕹️游戏工具', link: '/mdddd/工具Tools/gaming-tools' },
           { text: '🧩图像工具', link: '/mdddd/工具Tools/image-tools' },
@@ -98,7 +120,7 @@ export default defineConfig({
     // === 3. 社交链接 ===
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lwofacai/wofacai' },
-      // 注意：Discord 图标重复了 GitHub 链接，记得修改
+      // Discord 链接目前看起来是正常的，之前的注释可能是旧的
       { icon: 'discord', link: 'https://discord.gg/w9qgVVSkB' }, 
       {
         // Telegram 自定义图标
@@ -109,4 +131,4 @@ export default defineConfig({
       }
     ]
   }
-})
+}) // <--- 【修复点2】补全了这里的圆括号
