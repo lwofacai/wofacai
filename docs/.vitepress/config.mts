@@ -45,10 +45,11 @@ export default defineConfig({
           
           // === 第一组：AI 相关 ===
           {
-            text: '🤖 AI 白嫖系列',  // 这是二级标题
+            text: 'AI/Agent教程',  // 这是二级标题
             collapsed: false,      // 是否默认折叠
             items: [
               { text: '注册 Gemini', link: '/mdddd/教程/Gemini3Pro' },
+              { text: '本地moltbot', link: '/mdddd/教程/moltbot' },
               { text: '其他 AI 教程待更新', link: '/' } // 占位
             ]
           },

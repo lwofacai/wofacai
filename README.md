@@ -19,6 +19,9 @@
 
 项目采用 **VitePress** 构建，旨在提供极速的检索体验和简洁的阅读界面。
 
+## 🛠️ 快速开始
+资源包含全球各类资源访问需 **[加速器/梯子/VPN](https://baiyangjiasu.com/register?invite=sqBwL69m)**。
+
 ## 🗺️ 资源导航
 
 ### 📦 存储与代理 (Storage & Proxy)
@@ -43,10 +46,11 @@
 
 > *注：请将上述链接替换为你项目的实际截图 URL*
 
-## 🛠️ 快速开始
-资源包含全球各类资源访问需 **[加速器/梯子/VPN](https://baiyangjiasu.com/register?invite=0ULmX4zl)**。
+
 
 ## ⚖️ License & Credits
 
-- **Credits**: 本项目内容参考并引用自 [FMHY (FreeMediaHeckYeah)](https://fmhy.net/)。
-- **License**: 本项目文档内容遵循与 FMHY 相同的开放精神。如原作者有任何版权要求，请通过 Issue 联系，我将立即处理。
+- **Credits**: 本项目核心内容参考并引用自 [FMHY (FreeMediaHeckYeah)](https://fmhy.net/)。
+- **Disclaimer**: 本项目仅作资源索引，不存储任何盗版文件。内容遵循与 FMHY 相同的开放分享精神。
+- **Copyright**: 如原作者或版权方有任何要求，请通过 Issue 联系，我将立即处理。
+- **License**: 本项目代码部分遵循 MIT 协议。
