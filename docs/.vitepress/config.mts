@@ -5,6 +5,11 @@ export default defineConfig({
 
   title: "WoXituo",
   description: "遇到难找到的东西又不想起我了，那还不收藏分享等什么呢。",
+  head: [
+    
+    ['meta', { name: 'google-site-verification', content: '_Ia4ZRphsuR2LYEfgeSt9XvBqbjfib-Wk6hAgTX3jmw' }]
+    
+  ],
 
   // 忽略死链检查（可选）：防止删除原项目文件后，残留链接导致打包报错
   ignoreDeadLinks: true, 
