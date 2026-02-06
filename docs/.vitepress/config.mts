@@ -14,11 +14,11 @@ export default defineConfig({
     hostname: 'https://wofacai.pages.dev'
   },
 
-  // 忽略死链检查（可选）：防止删除原项目文件后，残留链接导致打包报错
+
   ignoreDeadLinks: true, 
 
   themeConfig: {
-    // === 1. 新增：本地搜索配置 (中文适配) ===
+
     search: {
       provider: 'local',
       options: {
@@ -41,13 +41,13 @@ export default defineConfig({
     sidebar: [
       {
         text: '开始使用', 
-        // 请确保你的文件路径是 docs/mdddd/开始使用.md
+        
         link: "/mdddd/开始使用",
         collapsed: false,
       },
-      // { text: '新手指南', link: '/mdddd/教程/新手指南', collapsed: false, },
+     
       {
-        text: '萌新教程', // 加个标题文字更好看
+        text: '萌新教程', 
         collapsed: false,
         items: [
           
