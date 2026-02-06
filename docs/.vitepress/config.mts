@@ -10,6 +10,9 @@ export default defineConfig({
     ['meta', { name: 'google-site-verification', content: '_Ia4ZRphsuR2LYEfgeSt9XvBqbjfib-Wk6hAgTX3jmw' }]
     
   ],
+  sitemap: {
+    hostname: 'https://wofacai.pages.dev'
+  },
 
   // 忽略死链检查（可选）：防止删除原项目文件后，残留链接导致打包报错
   ignoreDeadLinks: true, 
