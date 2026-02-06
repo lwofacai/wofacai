@@ -7,8 +7,16 @@ export default defineConfig({
   description: "遇到难找到的东西又不想起我了，那还不收藏分享等什么呢。",
   head: [
     
-    ['meta', { name: 'google-site-verification', content: '_Ia4ZRphsuR2LYEfgeSt9XvBqbjfib-Wk6hAgTX3jmw' }]
-    
+    ['meta', { name: 'google-site-verification', content: '_Ia4ZRphsuR2LYEfgeSt9XvBqbjfib-Wk6hAgTX3jmw' }],
+    [
+      'script',
+      {
+        defer: '',
+        src: 'https://static.cloudflareinsights.com/beacon.min.js',
+        // 👇 把下面的 token 换成你刚才复制的那串乱码
+        'data-cf-beacon': '{"token": "1a7a110a697d432b8acbc963537c3e9f"}'
+      }
+    ]
   ],
   sitemap: {
     hostname: 'https://wofacai.pages.dev'
