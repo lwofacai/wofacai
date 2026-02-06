@@ -67,7 +67,13 @@ export default defineConfig({
           
         ] // <--- 【修复点1】补全了这里的闭合括号
       }, // <--- 【修复点1】补全了这里的闭合对象
-      
+      {
+        text: 'Telegram频道资源', // 加个标题文字更好看
+        collapsed: false,
+        items:[
+          {text: 'TG资源汇总',link:'/mdddd/TG资源/TG'}
+        ]
+      },
       {
         text: '百科', // 加个标题文字更好看
         collapsed: false,

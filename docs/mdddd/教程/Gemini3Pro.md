@@ -47,7 +47,7 @@ https://www.bitget.com/zh-CN/verified/enter
 1. **登录平台**：
    * 访问 [https://gemini.google/students/](https://gemini.google/students/)。
     ![白羊加速/VPN/翻墙](../../assets/imgs/学生认证.png)
-   * 首先登录 Gemini 学生认证界面 【https://gemini.google/students/】， 点击【Get Offer】
+   * 首先登录 Gemini [学生认证界面](https://gemini.google/students/)， 点击【Get Offer】
    * 后一步直接点继续即可。
 2. **进入认证环节**：
    * 方法1：使用https://accounts.psu.edu/create/new注册的教育邮箱填写信息注册。
