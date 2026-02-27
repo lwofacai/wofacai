@@ -1,6 +1,6 @@
 # 本地ollama连接moltbot
 **Moltbot** 是一款运行在个人设备上的_个人 AI 助手，因此会具有较高的系统权限。去执行部分系统命令，因此在考虑到省钱的前提下我们使用本地虚拟机安装该服务。
-ollama登录需要连接外网，主页有提供推荐到加速。
+ollama登录需要连接外网，主页有提供推荐加速[🔍白羊加速](https://baiyangjiasu.com/register?invite=BO3BUDrb)(点击就到)。
 ## 虚拟机安装
 选择VMware或者 VirtualBox安装（建议VMware资源占用率低很多）。这里我为什么不跟其他博主一样推荐wsl2安装呢，原因有一下三点。
 	1.虚拟机的快照可以帮你快速回滚回之前步骤，避免因失误需重头再来。
@@ -11,10 +11,18 @@ ollama登录需要连接外网，主页有提供推荐到加速。
 	VirtualBox下载地址：https://www.virtualbox.org
 ## 安装Moltbot
 使用官方推荐的一键安装脚本避免安装其他内容占用系统资源。
+
+！！！！！！！！！不要一路无脑yes，能跳过跳过跳不过的填入api的这种选no。
 ```
 curl -fsSL https://openclaw.ai/install.sh | bash
 
 # 如没有安装curl需要apt install curl
+
+# 或者安好npn后
+npm install -g openclaw@latest
+
+# 一键安装好像是自动初始化，为写教程次数有点多记不清了。如果每日一进入初始化就手动
+openclaw onboard
 ```
 
 ![VPN翻墙](../../assets/imgs/moltbot/file-20260205155448277.png)
@@ -70,50 +78,78 @@ curl -fsSL https://openclaw.ai/install.sh | bash
 完整的配置示例
 ```
 {
-  "agent": {
-    "model": "ollama/deepseek-r1:14b",
-    "temperature": 0.7,
-    "maxTokens": 4096,
-    "fallbackModels": [
-      "ollama/qwen2.5:7b",
-      "ollama/llama3.1:8b"
-    ],
-    "workspace": "~/clawd"
+  "meta": {
+    "lastTouchedVersion": "2026.2.6-3"
   },
   "models": {
-    "ollama": {
-      "baseURL": "http://localhost:11434/v1",
-      "apiKey": "ollama",
-      "timeout": 120000,
-      "retries": 3,
-      "models": {
-        "deepseek-r1:7b": {
-          "contextWindow": 8192,
-          "description": "DeepSeek-R1 7B - 推理模型"
-        },
-        "deepseek-r1:14b": {
-          "contextWindow": 16384,
-          "description": "DeepSeek-R1 14B - 推荐日常使用"
-        },
-        "qwen2.5:7b": {
-          "contextWindow": 32768,
-          "description": "通义千问 7B - 中文友好"
-        },
-        "deepseek-coder:6.7b": {
-          "contextWindow": 16384,
-          "description": "DeepSeek-Coder - 代码专用"
-        }
+    "providers": {
+      "host-ollama": {
+        "baseUrl": "http://192.168.0.104:11434/v1",
+        "apiKey": "ollama",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen3-vl:32b",
+            "name": "Qwen3 VL 32B",
+            "contextWindow": 32000
+          },
+          {
+            "id": "qwen2.5-coder:32b",
+            "name": "Qwen2.5 Coder 32B",
+            "contextWindow": 32000
+          },
+          {
+            "id": "qwen3-coder-next:latest",
+            "name": "Qwen3 Coder Next",
+            "contextWindow": 32000
+          },
+          {
+            "id": "glm-4.7-flash:q8_0",
+            "name": "GLM 4.7 Flash",
+            "contextWindow": 32000
+          }
+        ]
       }
     }
   },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "host-ollama/qwen3-vl:32b"
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "maxConcurrent": 4
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
   "gateway": {
     "port": 18789,
-    "bind": "loopback"
-  },
-  "channels": {
-    "telegram": {
-      "botToken": "${TELEGRAM_BOT_TOKEN}"
+    "mode": "local",
+    "bind": "lan",
+    "controlUi": {
+      "enabled": true,
+      "allowInsecureAuth": true
+    },
+    "auth": {
+      "mode": "token",
+      "token": "5b7523ed8d8cdb51d746db5c487f6139b3246ff7fd932625"
+    },
+    "trustedProxies": ["0.0.0.0/0"],
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
     }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
   }
 }
 
@@ -121,8 +157,23 @@ curl -fsSL https://openclaw.ai/install.sh | bash
 安装好本地模型确保虚拟机于主机可以通信，要能双向通信单向通信是不行的。
 然后在配置文件内按要求修改信息。
 
-最后
 ```
+# 这将是你用的最多的命令
+
+openclaw gateway stop
+openclaw gateway run
+
+```
+
+最后
+
+```
+# ok到这里你想浏览器打开那一定也要看这个。
+
+在访问时带上token ！！！！！！填你自己的别复制我的
+http://127.0.0.1:18789/?token=5b7523ed8d8cdb51d746db5c487f6139b3246ff7fd932625
+
+
 # 启动网关
 moltbot gateway --port 18789 --verbose
 
@@ -138,6 +189,14 @@ moltbot agent --message "写一个 Python 快速排序" --model ollama/deepseek-
 ```
 ## 注意事项
 可能遇到的问题：主机不放行流量导致虚拟机无法连接到本地。
+没讲连接到社交软件，因为方便点的需要翻墙等不便展示有需要的可以滴我，稳定加速看主页
 ```
 netsh advfirewall firewall add rule name="Ollama VM Only" dir=in action=allow protocol=TCP localport=11434 remoteip=192.168.137.0/24最好配置静态ip
 ```
+## 坑点
+
+* 第一次安装没成功然后选择ctrl+c跳过可能会没有配置文件，这时直接重新初始化吧
+* 浏览器使用记得带token
+* 第一次测试时别把模型拉太满，我就是拉太满半天出不来内容。
+* 模型选择哪里他默认会是openai的模型需要手动调整也可以配置agent自己选择。
+* 最后的最后，奉劝使用虚拟机部分环境导致冲突了恢复快照。比你去整环境能快一点你可能遇到非常多的的意外。

@@ -67,6 +67,7 @@ export default defineConfig({
               { text: '注册 Gemini', link: '/mdddd/教程/Gemini3Pro' },
               { text: '本地moltbot', link: '/mdddd/教程/moltbot' },
               { text: '本地clawdbotbot中文版', link: '/mdddd/教程/clawdbot中文版安装教程' },
+              { text: 'OpenCode 配置 OpenAI 中转站教程', link: '/mdddd/教程/OpenCode配置OpenAI中转站教程' },
               { text: '其他 AI 教程待更新', link: '/' } // 占位
             ]
           },

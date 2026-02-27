@@ -26,7 +26,7 @@
    * 准备一个 **Google 账号**。
    * 谷歌官网：[Google.com](google.com)
    * 确保网络环境处于支持的地区（如新加坡、美国、台湾等）。
-  注：关于IP纯净度的这一块选各个网站测试的其实都很假选择国外节点不是万人骑的节点就可以了("ip111.cn")三个ip必须全在国外且ip地址相同,翻墙代理我推荐[🔍白羊加速](https://baiyangjiasu.com/register?invite=sqBwL69m)配置了海外家庭地址网络稳定。
+  注：关于IP纯净度的这一块选各个网站测试的其实都很假选择国外节点不是万人骑的节点就可以了("ip111.cn")三个ip必须全在国外且ip地址相同,翻墙代理我推荐[🔍白羊加速](https://baiyangjiasu.com/register?invite=BO3BUDrb)配置了海外家庭地址网络稳定。
 2. **访问官网**：
    * 访问 [gemini.google.com](https://gemini.google.com)。
    * 注册账号时：年龄选择要符合学生身份年龄推算下在18-25周岁之间这里讲的是没有账号的朋友需要注册。有账号去改下账号年龄什么试一下。  ![白羊加速/VPN/翻墙](../../assets/imgs/nianl.png)
@@ -69,7 +69,7 @@ https://www.bitget.com/zh-CN/verified/enter
 ## 💡 使用小贴士
 
 ### 1. 区域限制（Region Lock）
-后续使用过程中的访问时提示 请检查节点设置。推荐使用以下地区尽量使用下属的[代理节点](https://baiyangjiasu.com/register?invite=sqBwL69m)：
+后续使用过程中的访问时提示 请检查节点设置。推荐使用以下地区尽量使用下属的[代理节点](https://baiyangjiasu.com/register?invite=BO3BUDrb)：
 * **亚洲**：新加坡、台湾、日本、韩国。
 * **美洲**：美国、加拿大。
 
