@@ -5,7 +5,7 @@
 * **Note** - Outside of WARP it's generally best to use a paid VPN, especially if you have privacy or speed in mind. Free VPNs are mostly useful for things like unblocking websites. Remember to [bind](https://wispydocs.pages.dev/torrenting/) your VPN to your client to avoid ISP letters.
 
 ***
-* **[baiyangjiasu](https://baiyangjiasu.com/register?invite=2T8KwEZa)**  - Windows, Mac, Linux, Android
+* **[baiyangjiasu](https://baiyangjiasu.com/register?invite=RWqaczzt)**  - Windows, Mac, Linux, Android
 * **[Techlore Chart](https://techlore.tech/vpn)** - VPN Comparison Charts
 * [Censor Tracker](https://censortracker.org/) / [Telegram](https://t.me/CensorTracker_feedback) / [GitHub](https://github.com/censortracker/censortracker), [SmartProxy](https://github.com/salarcode/SmartProxy), [FoxyProxy](https://getfoxyproxy.org/) or [ZeroOmega](https://github.com/zero-peak/ZeroOmega) - Proxy Extensions
 * [Acrylic](https://mayakron.altervista.org/) - Local DNS Proxy

@@ -1,8 +1,8 @@
 # OpenCode 配置 OpenAI 中转站教程
 
-优质VPN[🔍白羊加速](https://baiyangjiasu.com/register?invite=BO3BUDrb)家庭IP #chatGPT #Cloud code 不降智
+优质VPN[🔍白羊加速](https://baiyangjiasu.com/register?invite=RWqaczzt)家庭IP #chatGPT #Cloud code 不降智
 
-VPN 梯子 翻墙：https://baiyangjiasu.com/register?invite=BO3BUDrb
+VPN 梯子 翻墙：https://baiyangjiasu.com/register?invite=RWqaczzt
 
 > 适用于 OpenCode 桌面端 / TUI 终端，Windows / macOS / Linux 通用。
 

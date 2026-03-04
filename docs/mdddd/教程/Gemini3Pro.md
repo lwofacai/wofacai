@@ -3,11 +3,11 @@
 
 
 
-想要白嫖，首先得具备以下几个条件,最基本[科学上网🔍白羊加速](https://baiyangjiasu.com/register?invite=sqBwL69m)。不然无法注册谷歌账号。
+想要白嫖，首先得具备以下几个条件,最基本[科学上网🔍白羊加速](https://baiyangjiasu.com/register?invite=RWqaczzt)。不然无法注册谷歌账号。
 
 1.你的 Google 注册地址是支持 # Free Pro Plan for Students. 没有这类邮箱的看下一篇google邮箱注册。
 
-2.你得有[魔法🔍白羊加速](https://baiyangjiasu.com/register?invite=sqBwL69m)
+2.你得有[魔法🔍白羊加速](https://baiyangjiasu.com/register?invite=RWqaczzt)
 
 3.你得有TG 可以在可在博客主页[discord](https://discord.gg/w9qgVVSkB)联系我帮你。
 

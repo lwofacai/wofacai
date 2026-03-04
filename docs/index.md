@@ -12,7 +12,7 @@ hero:
       link: /mdddd/开始使用
     - theme: brand
       text: 加速访问
-      link: https://baiyangjiasu.com/register?invite=sqBwL69m
+      link: https://baiyangjiasu.com/register?invite=RWqaczzt
     - theme: alt
       text: 萌新教程
       link: /mdddd/教程/新手指南
@@ -21,7 +21,7 @@ hero:
 features:
   - icon: 🦀
     title: 白羊加速 
-    link: https://baiyangjiasu.com/register?invite=sqBwL69m
+    link: https://baiyangjiasu.com/register?invite=RWqaczzt
     details: 点击本按钮或Edge浏览器搜索🔍白羊加速。
   - icon: 🚀
     title: 原神启动
