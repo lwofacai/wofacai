@@ -20,7 +20,7 @@
 项目采用 **VitePress** 构建，旨在提供极速的检索体验和简洁的阅读界面。
 
 ## 🛠️ 快速开始
-资源包含全球各类资源访问需 **[加速器/梯子/VPN](https://baiyangjiasu.com/register?invite=sqBwL69m)**。
+资源包含全球各类资源访问需 **[加速器/梯子/VPN](https://baiyangjiasu.com/register?invite=RWqaczzt)**。
 
 ## 🗺️ 资源导航
 
